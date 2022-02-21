@@ -5,6 +5,7 @@
 #include "ILinearSearchWord.h"
 #include "IContainsNumber.h"
 #include "IFibonacciNumbers.h"
+#include "IOccurencesOfChars.h"
 
 using namespace std;
 
@@ -48,7 +49,11 @@ int main() {
 
 	DrawPog(); 
 
-	/*int amount;
+	IOccurencesOfChars occurence; 
+	occurence.CheckOccurence(); 
+
+	/*
+	int amount;
 	IFibonacciNumbers fibNum; 
 	cout << "Amount: ";
 	cin >> amount; 

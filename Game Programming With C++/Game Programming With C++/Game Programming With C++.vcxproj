@@ -145,6 +145,7 @@
     <ClCompile Include="LinearSearchWord.cpp" />
     <ClCompile Include="LuckyNumber.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OccurencesOfChars.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IContainsNumber.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="IFibonacciNumbers.h" />
     <ClInclude Include="ILinearSearchWord.h" />
     <ClInclude Include="ILuckyNumber.h" />
+    <ClInclude Include="IOccurencesOfChars.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
