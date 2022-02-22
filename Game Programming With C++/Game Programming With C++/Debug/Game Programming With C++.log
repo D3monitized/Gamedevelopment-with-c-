@@ -1,2 +1,33 @@
-﻿  OccurencesOfChars.cpp
-  Game Programming With C++.vcxproj -> C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Debug\Game Programming With C++.exe
+﻿  List.cpp
+  main.cpp
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(43,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(42): message : while compiling class template member function 'void List<int>::Remove(T &)'
+          with
+          [
+              T=int
+          ]
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\main.cpp(67): message : see reference to function template instantiation 'void List<int>::Remove(T &)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\main.cpp(60): message : see reference to class template instantiation 'List<int>' being compiled
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(61,15): error C2131: expression did not evaluate to a constant
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(61,10): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(61,10): message : see usage of 'this'
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(59): message : while compiling class template member function 'void List<int>::Adjust(int)'
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(47): message : see reference to function template instantiation 'void List<int>::Adjust(int)' being compiled
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(62,18): error C3861: 'size': identifier not found
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(62,18): message : 'size': function was not declared in the template definition context and can be found only via argument-dependent lookup in the instantiation context
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(64,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(74,13): error C3863: array type 'T [this->8-1]' is not assignable
+          with
+          [
+              T=int
+          ]
+C:\Users\alexander.dolk\Documents\Visual Studio 2019\Projects\Git Fork\Gamedevelopment with c++\Gamedevelopment-with-c-\Game Programming With C++\Game Programming With C++\List.cpp(78,13): error C3863: array type 'T [this->8-1]' is not assignable
+          with
+          [
+              T=int
+          ]
+  Generating Code...

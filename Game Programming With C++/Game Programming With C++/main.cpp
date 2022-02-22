@@ -6,6 +6,7 @@
 #include "IContainsNumber.h"
 #include "IFibonacciNumbers.h"
 #include "IOccurencesOfChars.h"
+#include "List.cpp"
 
 using namespace std;
 
@@ -49,8 +50,35 @@ int main() {
 
 	DrawPog(); 
 
-	IOccurencesOfChars occurence; 
-	occurence.CheckOccurence(); 
+	/*IOccurencesOfChars occurence;
+	occurence.CheckOccurence(); */
+
+	int x = 1; 
+	int y = 2; 
+	int z = 3; 
+
+	List<int> test = List<int>();
+	test.Add(x);
+	test.Add(y);
+	test.Add(z);
+	cout << test[0] << ", ";
+	cout << test[1] << ", ";
+	cout << test[2] << endl;
+	test.Remove(y);
+	cout << test[0] << ", ";
+	cout << test[1] << ", ";
+	cout << test[2];
+
+
+	/*for (int value : test)
+	{
+		cout << value << ", ";
+	}*/
+
+	/*for (int value : list)
+	{
+		cout << value << ", ";
+	}*/
 
 	/*
 	int amount;

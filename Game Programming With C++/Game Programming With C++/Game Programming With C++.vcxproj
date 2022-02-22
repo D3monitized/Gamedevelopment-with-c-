@@ -143,11 +143,13 @@
     <ClCompile Include="ExercisesWeek1.cpp" />
     <ClCompile Include="FibonacciNumbers.cpp" />
     <ClCompile Include="LinearSearchWord.cpp" />
+    <ClCompile Include="List.cpp" />
     <ClCompile Include="LuckyNumber.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OccurencesOfChars.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ExercisesWeek1.h" />
     <ClInclude Include="IContainsNumber.h" />
     <ClInclude Include="IExercisesWeek1.h" />
     <ClInclude Include="IFibonacciNumbers.h" />

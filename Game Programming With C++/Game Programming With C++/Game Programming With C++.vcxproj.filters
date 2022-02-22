@@ -36,6 +36,9 @@
     <ClCompile Include="OccurencesOfChars.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IExercisesWeek1.h">
@@ -54,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IOccurencesOfChars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExercisesWeek1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
